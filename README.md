@@ -19,7 +19,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/images/Screenshot%202024-06-11%20at%2003-27-44%20Huddle%20landing%20page%20with%20curved%20sections.png)
+![](./public/images/Screenshot%202024-06-11%20at%2003-28-01%20Huddle%20landing%20page%20with%20curved%20sections.png)
 
 ### Links
 
