@@ -1,0 +1,363 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '@/styles/globals.css';
+---
+
+<Layout title='Huddle landing page with curved sections.'>
+  <!-- The Header -->
+  <header
+    class='mx-6 mt-7 flex items-center justify-between gap-[9.44rem] md:mx-20 md:mt-20'
+  >
+    <img src='/images/logo.svg' alt='logo' class='w-24 md:w-[15rem]' />
+    <button
+      type='button'
+      class='headerBtn h-[1.47056rem] w-20 rounded-xl border-[0.588px] border-solid border-[#FF52C1] font-sans text-[0.58825rem] font-normal leading-normal text-[#FF52C1] md:h-10 md:w-[8.5rem] md:rounded-[1.25rem] md:text-base'
+    >
+      Try it free
+    </button>
+  </header>
+  <main>
+    <!-- Build The Community -->
+    <section
+      class='mx-10 mt-[7.25rem] flex flex-col gap-[7.5rem] md:mx-[13.25rem] md:mt-[14.12rem]'
+    >
+      <div class='flex flex-col items-center justify-center gap-12 text-center'>
+        <div class='flex flex-col items-center justify-center gap-6'>
+          <h1
+            class='w-[17.5rem] text-2xl font-bold leading-9 text-[#00252E] md:w-full md:text-[3rem] md:leading-[4.5rem]'
+          >
+            Build The Community Your Fans Will Love
+          </h1>
+          <p
+            class='w-[18.5rem] font-sans text-sm font-normal leading-[1.3125rem] text-[#00252E] md:w-[37.5rem] md:text-xl md:leading-[1.875rem]'
+          >
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+        </div>
+        <button
+          type='button'
+          class='heroBtn h-10 w-[12.5rem] cursor-pointer rounded-full bg-[#FF52C1] font-sans text-xs font-bold leading-[1.125rem] text-white transition-colors duration-300 ease-in hover:bg-[#FF8ED7] md:h-20 md:w-[25rem]'
+          >Get Started For Free</button
+        >
+      </div>
+      <img src='/images/screen-mockups.svg' alt='' class='' />
+    </section>
+    <!-- Communities Numbers -->
+    <section
+      class='mb-56 mt-[7.5rem] flex flex-col items-center justify-center gap-[5.66rem] md:flex-row md:justify-evenly'
+    >
+      <div class='flex flex-col items-start justify-start'>
+        <img src='/images/icon-communities.svg' alt='' class='' />
+        <div class=''>
+          <h3
+            class='font-sans text-[3.8095rem] font-bold leading-[5.71431rem] text-[#00252E] md:text-[6rem] md:leading-[9rem]'
+          >
+            1.4k+
+          </h3>
+          <h4
+            class='text-[#808E9A text-center font-sans text-[0.95238rem] font-normal leading-[1.42856rem] md:text-2xl md:leading-9'
+          >
+            Communities Formed
+          </h4>
+        </div>
+      </div>
+      <div class='flex flex-col items-start justify-start'>
+        <img src='/images/icon-messages.svg' alt='' class='' />
+        <div class=''>
+          <h3
+            class='font-sans text-[3.8095rem] font-bold leading-[5.71431rem] text-[#00252E] md:text-[6rem] md:leading-[9rem]'
+          >
+            2.7m+
+          </h3>
+          <h4
+            class='text-center font-sans text-sm font-normal leading-[1.25438rem] text-[#808E9A] md:text-2xl md:leading-9'
+          >
+            Messages Sent
+          </h4>
+        </div>
+      </div>
+    </section>
+    <!-- Grow Together -->
+    <section
+      class='relative mb-60 flex flex-col items-center justify-center gap-[5.34rem] bg-[#F6FBFF] px-7 md:flex-row md:justify-between md:px-[8.12rem]'
+    >
+      <picture>
+        <source
+          media='(min-width: 768px)'
+          srcset='/public/images/bg-section-top-desktop-1.svg'
+        />
+        <img
+          src='/public/images/bg-section-top-mobile-1.svg'
+          alt=''
+          class='absolute left-0 top-[-97px] md:top-[-166px]'
+        />
+      </picture>
+
+      <img
+        src='/images/illustration-grow-together.svg'
+        alt=''
+        class='h-[13.22225rem] w-[16.16319rem] md:h-[26.44444rem] md:w-[32.32638rem]'
+      />
+      <div
+        class='flex w-[20rem] flex-col items-center justify-center gap-4 text-center md:w-[32.5rem] md:items-start md:justify-start md:gap-[1.62rem] md:text-left'
+      >
+        <h2
+          class='font-Poppins text-xl font-bold leading-[1.875rem] text-[#00252E] md:text-[2.5rem] md:leading-[3.75rem]'
+        >
+          Grow Together
+        </h2>
+        <p
+          class='font-sans text-sm font-normal leading-[1.3125rem] text-[#00252E] md:text-base md:leading-6'
+        >
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </div>
+      <picture>
+        <source
+          media='(min-width: 768px)'
+          srcset='/public/images/bg-section-bottom-desktop-1.svg'
+        />
+        <img
+          src='/public/images/bg-section-bottom-mobile-1.svg'
+          alt=''
+          class='absolute bottom-[-52px] left-0 md:bottom-[-136px]'
+        />
+      </picture>
+    </section>
+    <!-- Flowing Conversations -->
+    <section
+      class='mb-56 flex flex-col items-center justify-center gap-[5.34rem] px-7 md:flex-row-reverse md:justify-between md:px-[8.12rem]'
+    >
+      <img
+        src='/images/illustration-flowing-conversation.svg'
+        alt=''
+        class='h-[13.22225rem] w-[16.16319rem] md:h-[26.44444rem] md:w-[32.32638rem]'
+      />
+      <div
+        class='flex w-[20rem] flex-col items-center justify-center gap-4 text-center md:w-[32.5rem] md:items-start md:justify-start md:gap-[1.62rem] md:text-left'
+      >
+        <h2
+          class='font-Poppins text-xl font-bold leading-[1.875rem] text-[#00252E] md:text-[2.5rem] md:leading-[3.75rem]'
+        >
+          Flowing Conversations
+        </h2>
+        <p
+          class='font-sans text-sm font-normal leading-[1.3125rem] text-[#00252E] md:text-base md:leading-6'
+        >
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+    </section>
+    <!-- Your Users -->
+    <section
+      class='relative mb-64 flex flex-col items-center justify-center gap-[5.34rem] bg-[#f6fbff] px-7 md:flex-row md:justify-between md:px-[8.12rem]'
+    >
+      <picture>
+        <source
+          media='(min-width: 768px)'
+          srcset='/public/images/bg-section-top-desktop-2.svg'
+        />
+        <img
+          src='/public/images/bg-section-top-mobile-2.svg'
+          alt=''
+          class='absolute left-0 top-[-97px] md:top-[-150px]'
+        />
+      </picture>
+      <img
+        src='/images/illustration-your-users.svg'
+        alt=''
+        class='h-[13.22225rem] w-[16.16319rem] md:h-[26.44444rem] md:w-[32.32638rem]'
+      />
+      <div
+        class='flex w-[20rem] flex-col items-center justify-center gap-4 text-center md:w-[32.5rem] md:items-start md:justify-start md:gap-[1.62rem] md:text-left'
+      >
+        <h2
+          class='font-Poppins text-xl font-bold leading-[1.875rem] text-[#00252E] md:text-[2.5rem] md:leading-[3.75rem]'
+        >
+          Your Users
+        </h2>
+        <p
+          class='font-sans text-sm font-normal leading-[1.3125rem] text-[#00252E] md:text-base md:leading-6'
+        >
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </div>
+      <picture>
+        <source
+          media='(min-width: 768px)'
+          srcset='/public/images/bg-section-bottom-desktop-2.svg'
+        />
+        <img
+          src='/public/images/bg-section-bottom-mobile-2.svg'
+          alt=''
+          class='absolute bottom-[-97px] left-0 md:bottom-[-135px]'
+        />
+      </picture>
+    </section>
+    <!-- Ready To Build Your Community? -->
+    <section
+      class='mb-64 flex flex-col items-center justify-center gap-10 text-center md:mb-[22rem]'
+    >
+      <h2
+        class='w-[21.5rem] font-Poppins text-2xl font-bold leading-9 md:w-full md:text-[2.5rem] md:leading-[3.75rem]'
+      >
+        Ready To Build Your Community?
+      </h2>
+      <button
+        type='button'
+        class='heroBtn h-10 w-[12.5rem] cursor-pointer rounded-full bg-[#FF52C1] font-sans text-xs font-bold leading-[1.125rem] text-white transition-colors duration-300 ease-in hover:bg-[#FF8ED7] md:h-20 md:w-[25rem]'
+        >Get Started For Free</button
+      >
+    </section>
+  </main>
+  <!-- The Footer -->
+  <footer
+    class='relative flex flex-col gap-[7.25rem] bg-[#00252E] px-7 pb-24 pt-0 md:flex-row-reverse md:items-start md:justify-evenly md:px-[7.5rem] md:pt-20'
+  >
+    <picture>
+      <source
+        media='(min-width: 768px)'
+        srcset='/public/images/bg-footer-top-desktop.svg'
+      />
+      <img
+        src='/public/images/bg-footer-top-mobile.svg'
+        alt=''
+        class='absolute left-0 top-[-52px] md:top-[-153px]'
+      />
+    </picture>
+    <!-- Newsletter & Email Input/ Submit BTN -->
+    <div class='flex flex-col gap-8 md:gap-10'>
+      <div class='flex flex-col gap-4'>
+        <h2
+          class='font-sans text-xl font-bold leading-normal text-white md:text-2xl md:leading-9'
+        >
+          Newsletter
+        </h2>
+        <p
+          class='w-[20rem] font-sans text-sm font-semibold leading-6 text-white md:w-[21.5rem]'
+        >
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We&#39;ll never send you spam or pass on your email
+          address
+        </p>
+      </div>
+      <form action='' novalidate>
+        <div
+          class='flex flex-col items-end justify-end gap-4 md:flex-row md:items-start md:justify-between md:gap-10'
+        >
+          <div class='flex flex-col'>
+            <input
+              type='email'
+              name='userEmail'
+              id='userEmail'
+              class='h-12 w-[20rem] cursor-pointer rounded-[0.375rem] border border-solid bg-white pl-4 text-sm font-normal leading-6 text-[#00252E] outline-none md:w-[20rem]'
+            />
+            <span
+              class='hidden font-sans text-xs font-semibold leading-6 text-[#FF4343]'
+              id='errorMsg'>Check your email please</span
+            >
+          </div>
+          <button
+            type='submit'
+            id='submitBtn'
+            class='h-12 w-40 rounded-[0.3125rem] bg-[#FF52C1] font-sans text-base font-bold leading-6 text-white transition-colors duration-300 ease-linear hover:bg-[#FF8ED7]'
+            >Subscribe</button
+          >
+        </div>
+      </form>
+    </div>
+
+    <div class='flex flex-col gap-10'>
+      <!-- Logo & Site Detailes -->
+      <div class='flex flex-col gap-4'>
+        <img
+          src='/public/images/logo-white.svg'
+          alt=''
+          class='h-8 w-[12.5rem]'
+        />
+        <p
+          class='w-[20rem] font-sans text-sm font-semibold leading-6 text-white'
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+      </div>
+      <!-- Phone Number & Email Address -->
+      <div class='flex flex-col gap-4'>
+        <div class='flex items-center gap-4'>
+          <img src='/public/images/icon-phone.svg' alt='' class='' />
+          <h3 class='font-sans text-sm font-semibold leading-6 text-white'>
+            Phone: +1-543-123-4567
+          </h3>
+        </div>
+        <div class='flex items-center gap-4'>
+          <img src='/public/images/icon-email.svg' alt='' class='' />
+          <h3 class='font-sans text-sm font-semibold leading-6 text-white'>
+            example@huddle.com
+          </h3>
+        </div>
+      </div>
+      <!-- Social Media Links -->
+      <div class='flex items-center gap-2'>
+        <a href='/' class=''>
+          <i
+            class='fa-brands fa-square-facebook fa-xl cursor-pointer text-white transition-colors duration-300 ease-in hover:text-[#00C7FA]'
+          ></i>
+        </a>
+        <a href='/' class=''>
+          <i
+            class='fa-brands fa-instagram fa-xl cursor-pointer text-white transition-colors duration-300 ease-in hover:text-[#00C7FA]'
+          ></i>
+        </a>
+        <a href='/' class=''>
+          <i
+            class='fa-brands fa-square-twitter fa-xl cursor-pointer text-white transition-colors duration-300 ease-in hover:text-[#00C7FA]'
+          ></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</Layout>
+
+<style is:inline>
+  .headerBtn {
+    box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
+  }
+  .heroBtn {
+    filter: drop-shadow(0px 3px 7px rgba(0, 37, 46, 0.22));
+  }
+</style>
+
+<script is:inline>
+  const submitBtn = document.getElementById('submitBtn');
+  const errorMsg = document.getElementById('errorMsg');
+  const userEmail = document.getElementById('userEmail');
+
+  const isValidEmail = (email) => {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  };
+
+  submitBtn.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent the form from submitting
+
+    if (userEmail.value === '') {
+      errorMsg.classList.toggle('hidden');
+      userEmail.style.borderColor = '#FF4343';
+    } else if (!isValidEmail(userEmail.value)) {
+      errorMsg.classList.toggle('hidden');
+      userEmail.style.borderColor = '#FF4343';
+    } else {
+      // Submit the form or perform any other desired action
+      console.log('Email is valid');
+      // You can add your form submission code here
+    }
+  });
+</script>
